@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator-whole">
+        <div class="calculator-display">
+            <h1 id="current">0</h1>
+        </div>
+        <div class="calculator-interface">
+            <div class="cal-rows">
+                <div class="row">
+                    <button class="function" id="clear" onclick="clearAll()">AC</button>
+                    <button class="function" id="pos-neg">+/-</button>
+                    <button class="function" id="percent">%</button>
+                    <button class="calculation" id="divide">/</button>
+                </div>
+                <div class="row">
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="calculation" id="multiply">*</button>
+                </div>
+                <div class="row">
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="calculation" id="subtract">-</button>
+                </div>
+                <div class="row">
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="calculation" id="add">+</button>
+                </div>
+                <div class="row">
+                    <div class="zero"><button class="number" id="zero">0</button></div>
+                    <div class="not-zero">
+                        <button id="deci">.</button>
+                        <button class="function" id="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
